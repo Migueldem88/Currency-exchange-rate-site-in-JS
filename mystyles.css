@@ -1,0 +1,82 @@
+.img0 {
+  float:left;
+  max-width: 50%;
+  max-height: 50%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.common-style {
+	display: table;
+	width: 100%;
+	
+	border-spacing: 5px;
+  margin-bottom: 2px;
+}
+
+
+.tr {
+  display: table-row;
+  height: 100px;
+}
+
+.tc {
+	display:table-cell;
+	vertical-align:top;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+	
+	padding:5px 10px;
+  
+}
+
+.tc1 {
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.tc2 {
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.tc3 {
+  text-align: center;
+  margin: 10px;
+}
+
+.div-table.div-table1 {
+  width: 67%;
+  position: absolute;
+ 
+}
+
+.grid-wrapper {
+  display: grid;
+  place-items: center; 
+  height: 50vh;  
+  position: relative; 
+}
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(90, 47, 138);
+}
+
+
+
+.img1 {
+  display: block;
+  max-width: 80px;
+  max-height: 80px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.pp {
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
